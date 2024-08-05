@@ -1,0 +1,67 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-02 05:13:34.405540",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item",
+  "vendor_net_price",
+  "total_extra_cost",
+  "unit_selling_price",
+  "total_selling_price",
+  "profit"
+ ],
+ "fields": [
+  {
+   "fieldname": "item",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item",
+   "options": "Item"
+  },
+  {
+   "fieldname": "vendor_net_price",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "vendor Net Price"
+  },
+  {
+   "fieldname": "total_extra_cost",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Total Extra Cost"
+  },
+  {
+   "fieldname": "unit_selling_price",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Unit Selling Price"
+  },
+  {
+   "fieldname": "total_selling_price",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Total Selling Price"
+  },
+  {
+   "fieldname": "profit",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Profit"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-08-05 19:36:37.500490",
+ "modified_by": "Administrator",
+ "module": "Price Estimation Tool",
+ "name": "Price Estimation Tool Output Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

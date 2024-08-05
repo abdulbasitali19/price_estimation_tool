@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-02 04:58:09.427248",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item",
+  "qty",
+  "discount",
+  "exchange_rate",
+  "freight_cost",
+  "custom_duty",
+  "mis_cost",
+  "markup_per"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "item",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item",
+   "options": "Item"
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Qty"
+  },
+  {
+   "columns": 1,
+   "fieldname": "discount",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "Discount/Comm."
+  },
+  {
+   "columns": 1,
+   "fieldname": "exchange_rate",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Exchange Rate"
+  },
+  {
+   "columns": 1,
+   "fieldname": "freight_cost",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Freight Cost"
+  },
+  {
+   "columns": 1,
+   "fieldname": "custom_duty",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Custom Duty (CD)"
+  },
+  {
+   "columns": 1,
+   "fieldname": "mis_cost",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Miscellaneouse Costs (MC)"
+  },
+  {
+   "columns": 1,
+   "fieldname": "markup_per",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "Markup Percentage"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-08-05 19:36:28.359686",
+ "modified_by": "Administrator",
+ "module": "Price Estimation Tool",
+ "name": "Price Estimation Tool Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,159 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-01 21:40:18.319115",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_details_section",
+  "customer",
+  "column_break_wkebg",
+  "customer_name",
+  "item_details_section",
+  "item",
+  "column_break_gdhzd",
+  "price_list",
+  "items_table_section",
+  "items",
+  "items_cost_section",
+  "items_costing",
+  "total_cost_section",
+  "total_selling_price",
+  "disc",
+  "net",
+  "column_break_xzbev",
+  "vat15",
+  "total",
+  "total_profit"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer_details_section",
+   "fieldtype": "Section Break",
+   "label": "Customer Details"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "column_break_wkebg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "customer.customer_name",
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "item_details_section",
+   "fieldtype": "Section Break",
+   "label": "Item Details"
+  },
+  {
+   "fieldname": "item",
+   "fieldtype": "Table MultiSelect",
+   "label": "Item",
+   "options": "Items Table"
+  },
+  {
+   "fieldname": "column_break_gdhzd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "price_list",
+   "fieldtype": "Link",
+   "label": "Vendor Price List",
+   "options": "Price List"
+  },
+  {
+   "fieldname": "items_table_section",
+   "fieldtype": "Section Break",
+   "label": "Items Table"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "items",
+   "options": "Price Estimation Tool Table"
+  },
+  {
+   "fieldname": "items_cost_section",
+   "fieldtype": "Section Break",
+   "label": "Items Cost"
+  },
+  {
+   "fieldname": "items_costing",
+   "fieldtype": "Table",
+   "label": "Item Costing",
+   "options": "Price Estimation Tool Output Table"
+  },
+  {
+   "fieldname": "total_cost_section",
+   "fieldtype": "Section Break",
+   "label": "Total Cost"
+  },
+  {
+   "fieldname": "total_selling_price",
+   "fieldtype": "Float",
+   "label": "Total Selling Price"
+  },
+  {
+   "fieldname": "disc",
+   "fieldtype": "Float",
+   "label": "Disc."
+  },
+  {
+   "fieldname": "net",
+   "fieldtype": "Float",
+   "label": "Net"
+  },
+  {
+   "fieldname": "column_break_xzbev",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "vat15",
+   "fieldtype": "Float",
+   "label": "VAT(15%)"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Float",
+   "label": "Total"
+  },
+  {
+   "fieldname": "total_profit",
+   "fieldtype": "Float",
+   "label": "Total Profit"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-08-02 18:08:42.656284",
+ "modified_by": "Administrator",
+ "module": "Price Estimation Tool",
+ "name": "Price Estimation Tool",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
