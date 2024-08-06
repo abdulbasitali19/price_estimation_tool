@@ -9,7 +9,6 @@
   "item",
   "qty",
   "discount",
-  "exchange_rate",
   "freight_cost",
   "custom_duty",
   "mis_cost",
@@ -36,13 +35,6 @@
    "fieldtype": "Percent",
    "in_list_view": 1,
    "label": "Discount/Comm."
-  },
-  {
-   "columns": 1,
-   "fieldname": "exchange_rate",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Exchange Rate"
   },
   {
    "columns": 1,
@@ -76,7 +68,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-08-05 19:36:28.359686",
+ "modified": "2024-08-05 23:42:56.845590",
  "modified_by": "Administrator",
  "module": "Price Estimation Tool",
  "name": "Price Estimation Tool Table",

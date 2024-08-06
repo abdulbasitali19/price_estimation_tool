@@ -11,11 +11,14 @@
   "customer",
   "column_break_wkebg",
   "customer_name",
+  "items_table_section",
+  "from_currency",
+  "price_list",
+  "column_break_gdhzd",
+  "to_currency",
+  "exchange_rate",
   "item_details_section",
   "item",
-  "column_break_gdhzd",
-  "price_list",
-  "items_table_section",
   "items",
   "items_cost_section",
   "items_costing",
@@ -37,8 +40,10 @@
   {
    "fieldname": "customer",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Customer",
-   "options": "Customer"
+   "options": "Customer",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_wkebg",
@@ -53,7 +58,7 @@
   {
    "fieldname": "item_details_section",
    "fieldtype": "Section Break",
-   "label": "Item Details"
+   "label": "Item List"
   },
   {
    "fieldname": "item",
@@ -101,7 +106,8 @@
   {
    "fieldname": "total_selling_price",
    "fieldtype": "Float",
-   "label": "Total Selling Price"
+   "label": "Total Selling Price",
+   "read_only": 1
   },
   {
    "fieldname": "disc",
@@ -111,7 +117,8 @@
   {
    "fieldname": "net",
    "fieldtype": "Float",
-   "label": "Net"
+   "label": "Net",
+   "read_only": 1
   },
   {
    "fieldname": "column_break_xzbev",
@@ -120,23 +127,48 @@
   {
    "fieldname": "vat15",
    "fieldtype": "Float",
-   "label": "VAT(15%)"
+   "label": "VAT(15%)",
+   "read_only": 1
   },
   {
    "fieldname": "total",
    "fieldtype": "Float",
-   "label": "Total"
+   "label": "Total",
+   "read_only": 1
   },
   {
    "fieldname": "total_profit",
    "fieldtype": "Float",
-   "label": "Total Profit"
+   "label": "Total Profit",
+   "read_only": 1
+  },
+  {
+   "fieldname": "from_currency",
+   "fieldtype": "Link",
+   "label": "From Currency",
+   "options": "Currency",
+   "reqd": 1
+  },
+  {
+   "default": "SAR",
+   "fieldname": "to_currency",
+   "fieldtype": "Link",
+   "label": "To Currency",
+   "options": "Currency",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "exchange_rate",
+   "fieldtype": "Float",
+   "label": "Exchange Rate",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2024-08-02 18:08:42.656284",
+ "modified": "2024-08-06 18:09:58.730880",
  "modified_by": "Administrator",
  "module": "Price Estimation Tool",
  "name": "Price Estimation Tool",
