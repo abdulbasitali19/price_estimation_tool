@@ -6,6 +6,11 @@ frappe.ui.form.on('Price Estimation Tool', {
     onload:function(frm){
         frm.doc.items_costing = []
         frm.doc.items = []
+        frm.doc.total_selling_price = 0
+        frm.doc.net = 0.0
+        frm.doc.total_profit = 0.0
+        frm.doc.total = 0.0
+        frm.doc.vat15 = 0.0
     },
 
     refresh: function(frm){

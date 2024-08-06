@@ -104,6 +104,7 @@
    "label": "Total Cost"
   },
   {
+   "default": "0.0",
    "fieldname": "total_selling_price",
    "fieldtype": "Float",
    "label": "Total Selling Price",
@@ -115,6 +116,7 @@
    "label": "Disc."
   },
   {
+   "default": "0.0",
    "fieldname": "net",
    "fieldtype": "Float",
    "label": "Net",
@@ -125,18 +127,21 @@
    "fieldtype": "Column Break"
   },
   {
+   "default": "0.0",
    "fieldname": "vat15",
    "fieldtype": "Float",
    "label": "VAT(15%)",
    "read_only": 1
   },
   {
+   "default": "0.0",
    "fieldname": "total",
    "fieldtype": "Float",
    "label": "Total",
    "read_only": 1
   },
   {
+   "default": "0.0",
    "fieldname": "total_profit",
    "fieldtype": "Float",
    "label": "Total Profit",
@@ -168,7 +173,7 @@
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2024-08-06 18:09:58.730880",
+ "modified": "2024-08-06 22:08:54.131445",
  "modified_by": "Administrator",
  "module": "Price Estimation Tool",
  "name": "Price Estimation Tool",
